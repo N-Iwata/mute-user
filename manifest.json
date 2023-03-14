@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  "name": "Mute User",
+  "description": "Mute specific users on Zenn and Qiita",
+  "version": "1.0",
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": "icon.png"
+  },
+  "background": {
+    "service_worker": "scripts/background.js"
+  },
+  "host_permissions": ["https://zenn.dev/", "https://qiita.com/"],
+  "permissions": [
+    "storage",
+    "tabs",
+    "scripting"
+  ]
+}
