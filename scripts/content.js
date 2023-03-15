@@ -1,10 +1,3 @@
-// const zenn = ["revenuehack", "hsaki"];
-// const qiita = ["KokiSakano"];
-
-// chrome.storage.local.set({ zenn: zenn, qiita: qiita }).then(() => {
-//   console.log("Value is set to " + zenn);
-// });
-
 // Zenn
 chrome.storage.local.get(["zenn"]).then((result) => {
   if (location.hostname !== "zenn.dev") return;
