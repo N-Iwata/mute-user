@@ -1,5 +1,5 @@
 # Mute user
 
-Mute specific users on Zenn and Qiita.
+[Zenn](https://zenn.dev/) と [Qiita](https://qiita.com/) の特定のユーザーをミュートにします。
 
 ![img](images/screen-shot.png)
