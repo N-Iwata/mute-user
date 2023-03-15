@@ -1,0 +1,63 @@
+input {
+  width: 195px;
+  border-radius: 8px;
+  border: none;
+  padding: 6px 16px;
+  margin-right: 8px;
+}
+
+button {
+  border-radius: 16px;
+  border: none;
+  padding: 4px 16px;
+  background-color: #0e7eff;
+  color: #fff;
+}
+
+button:hover {
+  opacity: 0.9;
+  cursor: pointer;
+  transition: all 0.1s ease-in;
+}
+
+.zenn-area {
+  background-color: #3ea8ff;
+  padding: 4px;
+}
+
+.qiita-area {
+  background-color: #55c500;
+  padding: 4px;
+}
+
+.input-area {
+  background-color: #e2e2e2;
+  width: 300px;
+  height: 30px;
+  padding: 8px;
+  margin: 8px;
+  border-radius: 8px;
+}
+
+.mute-area {
+  background-color: #e2e2e2;
+  width: 300px;
+  min-height: 150px;
+  padding: 8px;
+  margin: 8px;
+  border-radius: 8px;
+}
+
+.mute-title {
+  text-align: center;
+  margin-top: 0;
+  font-weight: bold;
+  color: #666;
+}
+
+.list-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 4px;
+}

@@ -5,9 +5,37 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="popup.css" />
-    <title>Document</title>
+    <title>Mute user</title>
   </head>
   <body>
-    <h1>Hello world</h1>
+    <div class="zenn-area">
+      <div class="input-area">
+        <input
+          id="add-text-zenn"
+          type="text"
+          placeholder="ミュートしたいZennユーザー名"
+        />
+        <button id="add-button-zenn">追加</button>
+      </div>
+      <div class="mute-area">
+        <p class="mute-title">ミュートしたZennユーザー</p>
+        <ul id="mute-list-zenn"></ul>
+      </div>
+    </div>
+    <div class="qiita-area">
+      <div class="input-area">
+        <input
+          id="add-text-qiita"
+          type="text"
+          placeholder="ミュートしたいQiitaユーザー名"
+        />
+        <button id="add-button-qiita">追加</button>
+      </div>
+      <div class="mute-area">
+        <p class="mute-title">ミュートしたQiitaユーザー</p>
+        <ul id="mute-list-qiita"></ul>
+      </div>
+    </div>
+    <script src="scripts/popup.js"></script>
   </body>
 </html>
